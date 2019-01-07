@@ -1,0 +1,26 @@
+{
+  "name": "troya/warmer",
+  "description": "Magento 2 Cache-Warmer (Crawler)",
+  "require": {
+    "php": "^~7.0.0",
+    "troya/warmer": "*",
+    "league/csv": "^8.0"
+  },
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Oleksandr Nesterenko",
+      "email": "o.nesterenko@troyastudio.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Troya\\Warmer\\": ""
+    }
+  }
+}
+
